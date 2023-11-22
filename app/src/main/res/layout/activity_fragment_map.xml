@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapFragment">
+
+    <fragment
+        android:id="@+id/google_map"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <Button
+        android:id="@+id/confirmLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save location"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/squ_tile"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="20dp"
+        />
+
+
+</RelativeLayout>
